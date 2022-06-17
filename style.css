@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+
+/* .offset::before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+} */
+
+/* for navigation bar on the top*/
+.navbar{
+    /* height: 7.38rem; */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  /* background: rgb(0, 0, 0, 0.6) !important; */
+  background: rgb(147, 165, 216, 0.8) !important;
+}
+
+.navbar-nav li{
+  padding-right: .6rem;
+}
+
+.navbar-dark .navbar-nav .navbar-link{
+  color: #ffffff;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link:hover{
+  color: #1ebba3;
+}
+
+/* for landing page */
+/* #home{
+  padding-bottom: 4rem;
+} */
+
+.home-inner{
+  background-image: url(./img/01-min.png);
+
+  /* filter: brightness(.9) blur(0px); */
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+
+
+/* for cases section */
+#cases{
+  /* background-color: #1E1E1E; */
+  background-image: url(./img/05.jpg);
+  padding-bottom: 5rem;
+}
+.cases-offset::before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+.cases-heading{
+  padding-top: 0rem;
+  font-weight: 300px;
+  font-size: 2rem;
+  /* text-shadow: .1rem .1rem .8rem black; */
+  letter-spacing: .15rem;
+}
+
+.carousel-item img{
+  filter: brightness(.9);
+  height: 45rem;
+}
+
+
+.text-bold{
+    font-weight: bold;
+}
+/* for company infomation section*/
+
+#company{
+  /* background-color: #1E1E1E; */
+  background-color: rgb(189,198,228);
+  padding-bottom: 4rem;
+}
+
+.company-wrap{
+  padding-bottom: 4rem;
+  color: rgb(30,56,131) !important;
+}
+
+.company-wrap p{
+  letter-spacing: .2rem;
+}
+
+
+/* for business info */
+#business{
+  padding-bottom: 4rem;
+  /* color:rgb(30,56,131); */
+}
+.business-fixed-bg{
+  background-image: url(./img/08.jpeg);
+  z-index: -1;
+  filter: brightness(.8);
+  filter: blur(1px);
+  transform:scale(1.2)
+}
+
+.business-title{
+  margin-bottom: 2.5rem;
+}
+
+.bus-container{
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.heading{
+  padding-top: 4rem;
+  font-weight: 300px;
+  font-size: 2rem;
+  /* text-shadow: .1rem .1rem .8rem black; */
+  letter-spacing: .15rem;
+}
+
+.heading-hr{
+  width: 8.4rem;
+  background-color: #fff;
+  height: .15rem;
+}
+
+/* news section */
+#news{
+    background-color: rgb(189,198,228);
+    padding-bottom: 7rem;
+    color: rgb(30,56,131);
+}
+
+.news-wrapper-1{
+    /* max-height: 8rem; */
+}
+
+.news-wrapper-1 .carousel .carousel-item {
+    height: 300px;
+}
+  
+.news-wrapper-1 .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    height: 300px;
+}
+
+
+/* for contact section */
+#contact{
+  /* background-color: #1E1E1E; */
+  background-image: url(./img/contact.jpeg);
+  filter: brightness(.9) blur(0px);
+}
+
+.contact-inner{ 
+    padding-top: 3rem;
+  padding-bottom: .5rem;
+}
+
+.contact-inner h2{
+  font-weight: 300px;
+  font-size: 2rem;
+  /* text-shadow: .1rem .1rem .8rem black; */
+  letter-spacing: .15rem;
+}
+
+.contact-inner h5{
+  letter-spacing: .2rem;
+  /* text-shadow: .1rem .1rem .8rem black; */
+  padding-bottom: .1rem;
+}
+
+.contact-inner p{
+  letter-spacing: .2rem;
+}
+
+.contact-hr{
+  width: 8.4rem;
+  background-color: #fff;
+  height: .15rem;
+  margin-bottom: 2rem;
+}
+
+.copyright-hr{
+  height: 0.02rem;
+  background-color: #505962;
+}
+
+
+.flex-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+
+.modal-dialog{
+    max-width: 1000px;
+    /* top: 120px; */
+}
+
+.news-body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height:100%;
+    max-width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
